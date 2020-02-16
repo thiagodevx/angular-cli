@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
-    "build": "ng build",
+    "build": "ng build --stats-json",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "stats": "npx webpack-bundle-analyzer dist/angular-routing/stats-es2015.json"
   },
   "private": true,
   "dependencies": {
