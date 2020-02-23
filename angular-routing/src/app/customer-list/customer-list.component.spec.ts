@@ -17,7 +17,7 @@ describe('CustomerListComponent', () => {
         NoopAnimationsModule,
         MatPaginatorModule,
         MatSortModule,
-        MatTableModule,
+        MatTableModule
       ]
     }).compileComponents();
   }));
