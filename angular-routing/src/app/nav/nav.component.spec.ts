@@ -24,7 +24,7 @@ describe('NavComponent', () => {
         MatIconModule,
         MatListModule,
         MatSidenavModule,
-        MatToolbarModule,
+        MatToolbarModule
       ],
       schemas: [NO_ERRORS_SCHEMA]
     }).compileComponents();
